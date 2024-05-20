@@ -29,6 +29,6 @@ Welcome to the AI Chatbot Application! This project focuses on delivering smart 
 
 ### API Integration
 - **Google Gemini API**
-## CRED DATA
-- **Google Cloud cred data **
+### CRED DATA
+- * You have to add your Google Cloud cred data **
 
