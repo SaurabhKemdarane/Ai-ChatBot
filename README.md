@@ -9,18 +9,6 @@ Welcome to the AI Chatbot Application! This project focuses on delivering smart 
   - [Backend](#backend)
   - [Database](#database)
   - [API Integration](#api-integration)
-- [Installation](#installation)
-  - [Clone the Repository](#clone-the-repository)
-  - [Set Up the Frontend](#set-up-the-frontend)
-  - [Set Up the Backend](#set-up-the-backend)
-  - [Configure the Database](#configure-the-database)
-  - [API Configuration](#api-configuration)
-- [Usage](#usage)
-  - [Start the Backend Server](#start-the-backend-server)
-  - [Start the Frontend](#start-the-frontend)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 - **Smart Responses**: The chatbot is designed to understand user inputs and provide intelligent and contextually appropriate responses.
