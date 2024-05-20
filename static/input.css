@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card {
+    justify-content: center;
+    width: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    color:  white;
+    padding: 10px;
+    transition: all 0.2s ease;
+    
+  }
+  
+  .card:hover {
+    background-color: #212121;
+  }
+  .chat:hover {
+    background-color: #302e2e;
+    
+  }
+  .chat{
+    transition:  all 0.2s  ease ;
+  }
+  @font-face {
+    font-family: "Gpt", sans-serif;
+    src: url(/static/js/soehne-buch.13189857.woff2);
+  }
+  body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #212121;
+  }
+ 
+#solution::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html,body{
+  height: 100%;
+  width: 100vw;
+
+}
+
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
