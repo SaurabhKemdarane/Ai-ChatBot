@@ -1,1 +1,1 @@
-AIzaSyCIuhB3RwDHTrManJe8obyvPrYqbHAxFjg
+#add your Gemini Api
