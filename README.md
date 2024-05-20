@@ -42,12 +42,4 @@ Welcome to the AI Chatbot Application! This project focuses on delivering smart 
 ### API Integration
 - **Google Gemini API**
 
-## Installation
-### Clone the Repository
-To set up the project locally, follow these steps:
-
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/ai-chatbot.git
-   cd ai-chatbot
 
