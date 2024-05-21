@@ -5,13 +5,13 @@ from datetime import datetime
 import google.generativeai as genai
 
 # Set the Google application credentials environment variable
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:/visual studio codes/projects/AI-chatBOT-SYSTEM/cred.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:/visual studio codes/projects/AI-chatBOT-SYSTEM/cred.json" #add your google creds 
 
 app = Flask(__name__)
-app.secret_key = "AIzaSyCIuhB3RwDHTrManJe8obyvPrYqbHAxFjg"
+app.secret_key = "AIzaSyCIuhB3RwDHTrManJe8obyvPrYqbHAxFjg" # api key 
 
 # MongoDB connection
-app.config["MONGO_URI"] = "mongodb+srv://gg:12345@chatbot.s4lnzhi.mongodb.net/chatbot?connectTimeoutMS=30000&socketTimeoutMS=30000"
+app.config["MONGO_URI"] = "mongodb+srv://gg:12345@chatbot.s4lnzhi.mongodb.net/chatbot?connectTimeoutMS=30000&socketTimeoutMS=30000" # mongo server credentials 
 mongo = PyMongo(app)
 
 generation_config = {
